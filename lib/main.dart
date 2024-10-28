@@ -35,7 +35,11 @@ class _MyHomePageState extends State<MyHomePage> {
         color: Colors.purple,
         child: Center(
           child: FractionallySizedBox(
-
+            widthFactor: 0.9, // 90 percent of the parent widget
+            heightFactor: 0.4, // 40 percent of the parent widget
+            child: Container(
+              color: Colors.yellow
+            ),
           ),
         )
       ),
