@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+import 'consts.dart';
 import 'fractionSB.dart';
 
 void main() {
@@ -31,8 +32,7 @@ class _MyHomePageState extends State<MyHomePage> {
 
   @override
   Widget build(BuildContext context) {
-    Color myContainer = Colors.purple;
-    Color smalContainer = Colors.yellow;
+
     return Scaffold(
       body: Container(
         color: myContainer,
