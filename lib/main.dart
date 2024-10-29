@@ -29,10 +29,10 @@ class _MyHomePageState extends State<MyHomePage> {
 
   @override
   Widget build(BuildContext context) {
-
+    Color myContainer = Colors.purple;
     return Scaffold(
       body: Container(
-        color: Colors.purple,
+        color: myContainer,
         child: Center(
           child: FractionallySizedBox(
             widthFactor: 0.9, // 90 percent of the parent widget
