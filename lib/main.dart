@@ -30,6 +30,7 @@ class _MyHomePageState extends State<MyHomePage> {
   @override
   Widget build(BuildContext context) {
     Color myContainer = Colors.purple;
+    Color smalContainer = Colors.yellow;
     return Scaffold(
       body: Container(
         color: myContainer,
@@ -38,7 +39,7 @@ class _MyHomePageState extends State<MyHomePage> {
             widthFactor: 0.9, // 90 percent of the parent widget
             heightFactor: 0.4, // 40 percent of the parent widget
             child: Container(
-              color: Colors.yellow,
+              color: smalContainer,
             ),
           ),
         )
